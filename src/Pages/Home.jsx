@@ -3,11 +3,11 @@ import ScrollReveal from 'scrollreveal';
 import '../Styles/Home.css'
 import { Link } from 'react-router-dom';
 const Home = () => {
-  
+
 
   return (
     <div>
-    <header id="home" style={{ padding: '2rem 0', backgroundColor: '#f9f9f9' }}>
+      <header id="home" style={{ padding: '2rem 0', backgroundColor: '#f9f9f9' }}>
         <div
           className="section_container header_container"
           style={{
@@ -237,248 +237,266 @@ const Home = () => {
         </div>
       </section>
 
-    <section class="section_container classes_container mt-5" id="classes">
-     
-      <h2 class="section__header">Choose Your Level & Focus</h2>
-      <div class="classes__grid">
-        <div class="classes__image">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-1.jpg?raw=true" alt="classes" />
-          <div class="classes__content">
-            <button class="btn classes__btn">View More</button>
-          </div>
-        </div>
-        <div class="classes__image">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-2.jpg?raw=true" alt="classes" />
-          <div class="classes__content">
-            <button class="btn classes__btn">View More</button>
-          </div>
-        </div>
-        <div class="classes__image">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-3.jpg?raw=true" alt="classes" />
-          <div class="classes__content">
-            <button class="btn classes__btn">View More</button>
-          </div>
-        </div>
-        <div class="classes__image">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-4.jpg?raw=true" alt="classes" />
-          <div class="classes__content">
-            <button class="btn classes__btn">View More</button>
-          </div>
-        </div>
-        <div class="classes__image">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-5.jpg?raw=true" alt="classes" />
-          <div class="classes__content">
-            <button class="btn classes__btn">View More</button>
-          </div>
-        </div>
-        <div class="classes__image">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-6.jpg?raw=true" alt="classes" />
-          <div class="classes__content">
-            <button class="btn classes__btn">View More</button>
-          </div>
-        </div>
-      </div>
-    </section>
+      <section class="section_container classes_container mt-5" id="classes">
 
-    <section class="membership mt-5" id="membership ">
-      <div class="section_container membership_container">
-      
-        <h2 class="section__header">Membership Cards</h2>
-        <div class="membership__grid">
-          <div class="membership__card">
-            <h4>YEAR CARD</h4>
-            <h2><sup>$</sup>499</h2>
-            <h3>For 1 Year</h3>
-            <h4>ENJOY ALL THE FEATURES</h4>
-            <p>Onetime access to all club</p>
-            <p>Group trainer</p>
-            <p>Book a group class</p>
-            <p>Fitness orientation</p>
-            <button class="btn membership__btn">GET STARTED</button>
+        <h2 class="section__header">Choose Your Level & Focus</h2>
+        <div class="classes__grid">
+          <div class="classes__image">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-1.jpg?raw=true" alt="classes" />
+            <div class="classes__content">
+              <Link to="/register">
+                <button class="btn classes__btn">View More</button>
+              </Link>
+            </div>
           </div>
-          <div class="membership__card">
-            <h4>MONTHLY CARD</h4>
-            <h2><sup>$</sup>200</h2>
-            <h3>For 1 Month</h3>
-            <h4>ENJOY ALL THE FEATURES</h4>
-            <p>Group classes</p>
-            <p>Discuss fitness goals</p>
-            <p>Group trainer</p>
-            <p>Fitness orientation</p>
-            <button class="btn membership__btn">GET STARTED</button>
+          <div class="classes__image">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-2.jpg?raw=true" alt="classes" />
+            <div class="classes__content">
+              <Link to="/register">
+                <button class="btn classes__btn">View More</button>
+              </Link>
+            </div>
           </div>
-          <div class="membership__card">
-            <h4>WEEKLY CARD</h4>
-            <h2><sup>$</sup>85</h2>
-            <h3>For 1 Week</h3>
-            <h4>ENJOY ALL THE FEATURES</h4>
-            <p>Access to yoga area</p>
-            <p>Group trainer</p>
-            <p>Group classes</p>
-            <p>Fitness orientation</p>
-            <button class="btn membership__btn">GET STARTED</button>
+          <div class="classes__image">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-3.jpg?raw=true" alt="classes" />
+            <div class="classes__content">
+              <Link to="/register">
+                <button class="btn classes__btn">View More</button>
+              </Link>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section_container stories_container mt-5" id="stories">
-     
-      <h2 class="section__header">Successful Stories</h2>
-      <div class="stories__grid">
-        <div class="stories__card">
-          <div class="stories__content">
-            <span><i class="ri-double-quotes-l"></i></span>
-            <p>
-              This yoga website has been a game-changer for me. The variety of
-              classes and guided sessions have not only improved my flexibility
-              but also brought a sense of calm to my hectic days.
-            </p>
+          <div class="classes__image">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-4.jpg?raw=true" alt="classes" />
+            <div class="classes__content">
+              <Link to="/register">
+                <button class="btn classes__btn">View More</button>
+              </Link>
+            </div>
           </div>
-          <div class="stories__author">
-            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/stories-1.jpg?raw=true" alt="author" />
-            <div class="stories_author_details">
-              <h4>Avanika</h4>
-              <h6>Trainer</h6>
+          <div class="classes__image">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-5.jpg?raw=true" alt="classes" />
+            <div class="classes__content">
+              <Link to="/register">
+                <button class="btn classes__btn">View More</button>
+              </Link>
+            </div>
+          </div>
+          <div class="classes__image">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/classes-6.jpg?raw=true" alt="classes" />
+            <div class="classes__content">
+              <Link to="/register">
+                <button class="btn classes__btn">View More</button>
+              </Link>
             </div>
           </div>
         </div>
-        <div class="stories__card">
-          <div class="stories__content">
-            <span><i class="ri-double-quotes-l"></i></span>
-            <p>
-              The tailored sessions and expert guidance have not only eased my
-              discomfort but also boosted my overall well-being. A fantastic
-              resource for both beginners and experienced yogis.
-            </p>
-          </div>
-          <div class="stories__author">
-            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/stories-2.jpg?raw=true" alt="author" />
-            <div class="stories_author_details">
-              <h4>Gayathri</h4>
-              <h6>Member</h6>
+      </section>
+
+      <section class="membership mt-5" id="membership ">
+        <div class="section_container membership_container">
+
+          <h2 class="section__header">Membership Cards</h2>
+          <div class="membership__grid">
+            <div class="membership__card">
+              <h4>YEAR CARD</h4>
+              <h2><sup>$</sup>499</h2>
+              <h3>For 1 Year</h3>
+              <h4>ENJOY ALL THE FEATURES</h4>
+              <p>Onetime access to all club</p>
+              <p>Group trainer</p>
+              <p>Book a group class</p>
+              <p>Fitness orientation</p>
+              <Link to="/register">
+              <button class="btn membership__btn">GET STARTED</button>
+              </Link>
+            </div>
+            <div class="membership__card">
+              <h4>MONTHLY CARD</h4>
+              <h2><sup>$</sup>200</h2>
+              <h3>For 1 Month</h3>
+              <h4>ENJOY ALL THE FEATURES</h4>
+              <p>Group classes</p>
+              <p>Discuss fitness goals</p>
+              <p>Group trainer</p>
+              <p>Fitness orientation</p>
+              <Link to="/register" >
+              <button class="btn membership__btn">GET STARTED</button>
+              </Link>
+            </div>
+            <div class="membership__card">
+              <h4>WEEKLY CARD</h4>
+              <h2><sup>$</sup>85</h2>
+              <h3>For 1 Week</h3>
+              <h4>ENJOY ALL THE FEATURES</h4>
+              <p>Access to yoga area</p>
+              <p>Group trainer</p>
+              <p>Group classes</p>
+              <p>Fitness orientation</p>
+              <Link to="/register">
+              <button class="btn membership__btn">GET STARTED</button>
+              </Link>
             </div>
           </div>
         </div>
-        <div class="stories__card">
-          <div class="stories__content">
-            <span><i class="ri-double-quotes-l"></i></span>
-            <p>
-              The on-demand classes allow me to practice whenever I can, and the
-              mindfulness exercises have brought a new level of clarity to my
-              life.A must-visit for anyone seeking holistic wellness.
-            </p>
-          </div>
-          <div class="stories__author">
-            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/stories-3.jpg?raw=true" alt="author" />
-            <div class="stories_author_details">
-              <h4>Hansika</h4>
-              <h6>Member</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="banner mt-5">
-      <div class="section_container banner_container">
-        <div class="banner__card">
-          <h4>5,000</h4>
-          <p>Happy Customers</p>
-        </div>
-        <div class="banner__card">
-          <h4>4,560</h4>
-          <p>Yoga Workshops</p>
-        </div>
-        <div class="banner__card">
-          <h4>570</h4>
-          <p>Years of Experience</p>
-        </div>
-        <div class="banner__card">
-          <h4>900</h4>
-          <p>Lesson Conducted</p>
-        </div>
-      </div>
-    </section>
+      <section class="section_container stories_container mt-5" id="stories">
 
-    <section class="posts mt-5" id="posts">
-      <div class="section_container posts_container">
-        
-        <h2 class="section__header">Recent Posts</h2>
-        <div class="posts__grid">
-          <div class="posts__card">
-            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/posts-1.jpg?raw=true" alt="post" />
-            <div class="posts__content">
-              <div class="posts__date">
-                <span>31</span>
-                <div>
-                  <p>2024</p>
-                  <p>Julyr</p>
-                </div>
-              </div>
-              <h4>Unlocking Inner Peace</h4>
+        <h2 class="section__header">Successful Stories</h2>
+        <div class="stories__grid">
+          <div class="stories__card">
+            <div class="stories__content">
+              <span><i class="ri-double-quotes-l"></i></span>
               <p>
-                Dive into the practices that help you cultivate inner peace,
-                reduce stress, and enhance your overall well-being.
+                This yoga website has been a game-changer for me. The variety of
+                classes and guided sessions have not only improved my flexibility
+                but also brought a sense of calm to my hectic days.
               </p>
             </div>
-          </div>
-          <div class="posts__card">
-            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/posts-2.jpg?raw=true" alt="post" />
-            <div class="posts__content">
-              <div class="posts__date">
-                <span>25</span>
-                <div>
-                  <p>2024</p>
-                  <p>March</p>
-                </div>
+            <div class="stories__author">
+              <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/stories-1.jpg?raw=true" alt="author" />
+              <div class="stories_author_details">
+                <h4>Avanika</h4>
+                <h6>Trainer</h6>
               </div>
-              <h4>From Desk to Mat</h4>
-              <p>
-                Learn incorporating simple yoga stretches and breathing
-                techniques to counter effects of sedentary lifestyle.
-              </p>
             </div>
           </div>
-          <div class="posts__card">
-            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/posts-3.jpg?raw=true" alt="post" />
-            <div class="posts__content">
-              <div class="posts__date">
-                <span>06</span>
-                <div>
-                  <p>2024</p>
-                  <p>August</p>
-                </div>
-              </div>
-              <h4>Yoga Through the Ages</h4>
+          <div class="stories__card">
+            <div class="stories__content">
+              <span><i class="ri-double-quotes-l"></i></span>
               <p>
-                From prenatal yoga to gentle senior yoga, discover enhance
-                flexibility and foster a lifelong love for well-being.
+                The tailored sessions and expert guidance have not only eased my
+                discomfort but also boosted my overall well-being. A fantastic
+                resource for both beginners and experienced yogis.
               </p>
+            </div>
+            <div class="stories__author">
+              <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/stories-2.jpg?raw=true" alt="author" />
+              <div class="stories_author_details">
+                <h4>Gayathri</h4>
+                <h6>Member</h6>
+              </div>
+            </div>
+          </div>
+          <div class="stories__card">
+            <div class="stories__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                The on-demand classes allow me to practice whenever I can, and the
+                mindfulness exercises have brought a new level of clarity to my
+                life.A must-visit for anyone seeking holistic wellness.
+              </p>
+            </div>
+            <div class="stories__author">
+              <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/stories-3.jpg?raw=true" alt="author" />
+              <div class="stories_author_details">
+                <h4>Hansika</h4>
+                <h6>Member</h6>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section_container photos_container mt-5">
- 
-      <h2 class="section__header">See The Latest Photos</h2>
-      <div class="photos__grid">
-        <div class="photos__card">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-1.jpg?raw=true" alt="photo" />
+      <section class="banner mt-5">
+        <div class="section_container banner_container">
+          <div class="banner__card">
+            <h4>5,000</h4>
+            <p>Happy Customers</p>
+          </div>
+          <div class="banner__card">
+            <h4>4,560</h4>
+            <p>Yoga Workshops</p>
+          </div>
+          <div class="banner__card">
+            <h4>570</h4>
+            <p>Years of Experience</p>
+          </div>
+          <div class="banner__card">
+            <h4>900</h4>
+            <p>Lesson Conducted</p>
+          </div>
         </div>
-        <div class="photos__card">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-2.jpg?raw=true" alt="photo" />
+      </section>
+
+      <section class="posts mt-5" id="posts">
+        <div class="section_container posts_container">
+
+          <h2 class="section__header">Recent Posts</h2>
+          <div class="posts__grid">
+            <div class="posts__card">
+              <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/posts-1.jpg?raw=true" alt="post" />
+              <div class="posts__content">
+                <div class="posts__date">
+                  <span>31</span>
+                  <div>
+                    <p>2024</p>
+                    <p>Julyr</p>
+                  </div>
+                </div>
+                <h4>Unlocking Inner Peace</h4>
+                <p>
+                  Dive into the practices that help you cultivate inner peace,
+                  reduce stress, and enhance your overall well-being.
+                </p>
+              </div>
+            </div>
+            <div class="posts__card">
+              <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/posts-2.jpg?raw=true" alt="post" />
+              <div class="posts__content">
+                <div class="posts__date">
+                  <span>25</span>
+                  <div>
+                    <p>2024</p>
+                    <p>March</p>
+                  </div>
+                </div>
+                <h4>From Desk to Mat</h4>
+                <p>
+                  Learn incorporating simple yoga stretches and breathing
+                  techniques to counter effects of sedentary lifestyle.
+                </p>
+              </div>
+            </div>
+            <div class="posts__card">
+              <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/posts-3.jpg?raw=true" alt="post" />
+              <div class="posts__content">
+                <div class="posts__date">
+                  <span>06</span>
+                  <div>
+                    <p>2024</p>
+                    <p>August</p>
+                  </div>
+                </div>
+                <h4>Yoga Through the Ages</h4>
+                <p>
+                  From prenatal yoga to gentle senior yoga, discover enhance
+                  flexibility and foster a lifelong love for well-being.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="photos__card">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-3.jpg?raw=true" alt="photo" />
+      </section>
+
+      <section class="section_container photos_container mt-5">
+
+        <h2 class="section__header">See The Latest Photos</h2>
+        <div class="photos__grid">
+          <div class="photos__card">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-1.jpg?raw=true" alt="photo" />
+          </div>
+          <div class="photos__card">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-2.jpg?raw=true" alt="photo" />
+          </div>
+          <div class="photos__card">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-3.jpg?raw=true" alt="photo" />
+          </div>
+          <div class="photos__card">
+            <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-4.jpg?raw=true" alt="photo" />
+          </div>
         </div>
-        <div class="photos__card">
-          <img src="https://github.com/WebDesignMastery/Yogalax_23-08-23/blob/main/assets/photos-4.jpg?raw=true" alt="photo" />
-        </div>
-      </div>
-    </section>
+      </section>
     </div>
   );
 };
